@@ -34,7 +34,7 @@ The system processes webcam video using YOLOv11 to identify suspicious objects. 
 - Audio: Pygame (siren playback).
 - Data: Pandas (CSV logging).
 ## Scrrenshots
-![img alt](https://github.com/Shikhar1912-blip/AI-Driven-Public-Threat-Detection/blob/ba65e42f7190aac69a54516efbdc5271dce3c9b8/IMG%201.png)
+![img alt](https://github.com/Shikhar1912-blip/AI-Driven-Public-Threat-Detection/blob/29376256bacbac1af82972364c6569caa04af97a/IMG%20one.png)
 ![img alt](https://github.com/Shikhar1912-blip/AI-Driven-Public-Threat-Detection/blob/ba65e42f7190aac69a54516efbdc5271dce3c9b8/IMG%202.jpg)
 ## Run instructions
 - Firstly start by creating a virtual enviornment by running "python -m venv venv" and then activate it by "venv\Scripts\activate"
