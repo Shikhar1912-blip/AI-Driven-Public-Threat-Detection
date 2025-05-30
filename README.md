@@ -22,13 +22,13 @@ The system processes webcam video using YOLOv11 to identify suspicious objects. 
 - Users can resume detection via a button or ‘r’ key. Detections are logged to detections.csv for analysis. The solution is lightweight, scalable, and hackathon-ready.
 ## Features
 - Real-Time Detection: Identifies suspicious objects (backpacks, suitcases, handbags) using YOLOv11.
-- Web Interface: Flask frontend with live video feed, bounding boxes, alerts, and a detection log table.
+- Web Interface: Streamlit frontend with live video feed, bounding boxes, alerts, and a detection log table.
 - Audible Alerts: Plays siren.wav when threats are detected.
 - SMS Notifications: Sends alerts with location links via Twilio.
 - Camera Pause: Halts video feed on detection, resumable via button or 'r' key or quit it by 'q' key.
 - Logging: Saves detection details (timestamp, object, confidence, coordinates) to detections.csv.
 ## Tech Stack
-- Backend: Python, Flask, OpenCV, YOLOv11 (Ultralytics).
+- Backend: Python, Streamlit, OpenCV, YOLOv11 (Ultralytics).
 - Frontend: HTML, Bootstrap, Tailwind CSS, JavaScript (AJAX).
 - Notifications: Twilio (SMS), ipinfo.io (location).
 - Audio: Pygame (siren playback).
